@@ -15,11 +15,11 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={bannerChair} className="max-w-sm rounded-lg hidden lg:block" />
           <div className="pt-8">
-            <h1 className="text-5xl font-bold pt-8">
+            <h1 className="text-3xl lg:text-5xl font-bold pt-8">
               We <span className="text-[#2F8F6F]">Provide High</span>
             </h1>
             <h3 className="text-4xl font-bold py-4">Quality Furniture</h3>
-            <p className="pb-16 text-[#001C13]">
+            <p className="pb-16 text-[#001C13] text-[12px] lg:text-[14px]">
               Choose and buy from wide and largest sofa collection of
               Bangladesh. Regal, the most loved and selling furniture brand in
               Bangladesh, brought to you modern, ergonomic, budget friendly
