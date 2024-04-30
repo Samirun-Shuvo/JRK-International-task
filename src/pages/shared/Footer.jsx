@@ -1,35 +1,35 @@
-import footer from "../../assets/images/footer.png";
+import apple from "../../assets/footer/apple.png";
+import google from "../../assets/footer/google.png";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { CiTwitter } from "react-icons/ci";
+import { FaLinkedinIn } from "react-icons/fa6";
+
 const Footer = () => {
-    let currentYear = new Date().getFullYear();
+  const currentYear= new Date().getFullYear();
   return (
-    <footer
-      style={{ background: `url(${footer})`, backgroundSize: "cover" }}
-      className="p-10 "
-    >
-      <div className="footer">
-        <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
+    <footer className="p-10 bg-[#51907D] text-white">
+      <div className="text-white flex justify-around items-center">
+        <p className="text-center w-[50%] mx-auto">
+          Privacy Policy <span className="mx-4">|</span>Terms of service{" "}
+          <span className="mx-4"> |</span>
+          Accessibility <span className="mx-4">|</span>Contact Us{" "}
+        </p>
       </div>
-      <aside className="text-center my-10">
-        <p>Copyright © {currentYear} - All right reserved</p>
+      <hr className="w-50 h-0.1 bg-[#FFDD5F] mx-auto my-5" />
+      <div className="flex justify-center items-center">
+        <img className="w-28 mx-2" src={apple} alt="" />
+        <img className="w-28 mx-2" src={google} alt="" />
+      </div>
+      <p className="text-center py-4">FOLLOW US</p>
+      <div className="flex justify-center items-center gap-2 text-4xl">
+        <FaFacebook className="bg-[#F8C200] p-2 rounded-2xl"/>
+        <FaInstagram className="bg-[#F8C200] p-2 rounded-2xl"/>
+        <CiTwitter className="bg-[#F8C200] p-2 rounded-2xl"/>
+        <FaLinkedinIn className="bg-[#F8C200] p-2 rounded-2xl"/>
+      </div>
+      <aside className="text-center my-5">
+        <p>© {currentYear} Designed & Developed by Kabbik</p>
       </aside>
     </footer>
   );
