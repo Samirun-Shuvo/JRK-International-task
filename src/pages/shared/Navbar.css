@@ -1,6 +1,6 @@
 .indicator :where(.indicator-item) {
   bottom: auto;
-  inset-inline-end: 10px !important;
+  inset-inline-end: 6px !important;
   inset-inline-start: auto;
   top: 5px !important;
   --tw-translate-y: -50%;

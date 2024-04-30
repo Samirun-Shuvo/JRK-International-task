@@ -28,7 +28,7 @@ const Footer = () => {
         <CiTwitter className="bg-[#F8C200] p-2 rounded-2xl"/>
         <FaLinkedinIn className="bg-[#F8C200] p-2 rounded-2xl"/>
       </div>
-      <aside className="text-center my-5">
+      <aside className="text-center mt-8">
         <p>© {currentYear} Designed & Developed by Kabbik</p>
       </aside>
     </footer>

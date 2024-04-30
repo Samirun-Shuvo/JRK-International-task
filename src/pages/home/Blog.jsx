@@ -11,7 +11,7 @@ const Blog = ({ blog }) => {
         <h2 className="text-[14px] mb-2 lg:text-start text-center font-bold">
           {blog.description}
         </h2>
-        <hr className="w-24 h-1 bg-[#FFDD5F] lg:mx-0 mx-auto" />
+        <hr className="w-24 h-0.5 bg-[#FFDD5F] lg:mx-0 mx-auto" />
         <p className="text-[12px] lg:text-start text-center my-2">
           {blog.releaseDate} / {blog.releaseTheme} / {blog.releaseProduct}
         </p>

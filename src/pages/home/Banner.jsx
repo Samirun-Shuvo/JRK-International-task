@@ -19,7 +19,7 @@ const Banner = () => {
               We <span className="text-[#2F8F6F]">Provide High</span>
             </h1>
             <h3 className="text-4xl font-bold py-4">Quality Furniture</h3>
-            <p className="pb-16">
+            <p className="pb-16 text-[#001C13]">
               Choose and buy from wide and largest sofa collection of
               Bangladesh. Regal, the most loved and selling furniture brand in
               Bangladesh, brought to you modern, ergonomic, budget friendly
@@ -33,11 +33,11 @@ const Banner = () => {
       </div>
 
       <div className="bg-[#FDCC1A] mt-[-20px] h-[140px]">
-        <div className="flex justify-start mx-16 py-10">
+        <div className="flex justify-start items-center mx-14 py-10">
           <span className="bg-[#2F6F59] p-2 text-white rounded cursor-pointer">
             Buy Now
           </span>
-          <img src={extentProduct} alt="" className="w-20" />
+          <img src={extentProduct} alt="" className="w-28" />
         </div>
       </div>
 

@@ -37,7 +37,7 @@ const Products = () => {
           POPULACE <span className="text-[#2F8F6F]">WE HAVE</span>
         </h3>
 
-        <h2 className="text-sm">
+        <h2 className="text-sm text-[#737373] my-2">
           Furniture Concepts is a contract furniture wholesaler serving the
           needs of group living environments including Community Housing,
           Treatment & Recovery Centers, Assisted Living, Camps, Conference
