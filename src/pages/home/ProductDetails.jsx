@@ -39,7 +39,7 @@ const ProductDetails = () => {
               <button className="bg-[#2F6F59] px-2 py-1 rounded-md text-white mr-5 my-5">
                 Shop Now
               </button>
-              <img className="w-20 cursor-pointer" src={videoImg} alt="" />
+              <img className="w-28 cursor-pointer" src={videoImg} alt="" />
             </div>
           </div>
         </div>
